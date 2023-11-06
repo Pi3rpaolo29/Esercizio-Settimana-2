@@ -107,24 +107,16 @@ console.log(justTrims)
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-/* i=0
+i=0
 while (i<cars.length - 1){
-  let c = [];
-  c= cars[i].color.split("");
-  for(let x=0; x<c.length - 1; x++) {
-    if(c[x] === ("b")){
+    if(cars[i].color.charAt(0) === ("b")){
       console.log ("Fizz")
     }
-    else if(){
+    else{
       console.log ("Buzz")
     }
-  }
   i++
 }
- */
-
-
-///////////////////////////////////////////////////////////NON ANCORA RIUSCITO/////////////////////////////////////////////////////////////////
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -182,4 +174,3 @@ while (i<charactersArray.length -1){
   i++;
 }
 console.log (arr)
-
